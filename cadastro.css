@@ -1,0 +1,93 @@
+/*presetando*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(26, 82, 54, 0.8);
+    color: rgb(255, 238, 0);
+}
+
+
+/*logo*/
+header{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+
+/*centralizando o conteudo*/
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*formulario*/
+form{
+    border: solid 2px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 65, 50);
+    border-radius: 50px;
+}
+
+legend{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.linha{
+    padding: 2px;
+}
+
+input , select {
+    background-color: rgb(48, 47, 47);
+    color: rgba(179, 179, 179, 0.74);
+    border: none;
+    padding: 5px;
+}
+
+fieldset{
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: rgb(48, 47, 47); 
+    color: rgb(255, 238, 0);
+    font-weight: 700;
+    border: 1px solid;
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+.botaoEnviar{
+    text-align: center;
+}
+
+
+/*rodapé*/
+a{
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+}
+
+a:hover{
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
