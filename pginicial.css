@@ -6,22 +6,58 @@
 }
 
 body{
+    background-image: url(imgs/fundograma.jpg);
+    background-attachment:fixed;
+    background-size:cover;
     font-family: 'Orbitron', sans-serif;
-    background-color: rgba(26, 82, 54, 0.8);
     color: rgb(255, 238, 0);
 }
 
 /*logo*/
 header{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 50px 0 50px 0;
+    padding: 100px 0 100px 0;
+    font-size: 30px;
+    background-image: url(imgs/bannerlogo.jpg);
+    background-size: cover;
+   
+    
 }
 
+
 /*centralizar conteudo*/
-.box{
+
+.box1 {
+    background-image: url(/imgs/bannerlogin.gif);
+    background-size: cover;
     text-align: center;
-    padding: 0 30px 50px 30px;
+    padding: 300px;
 }
+
+.box1 h1 {
+    display: inline-block;
+    padding: 50px;
+    background-color: rgba(36, 65, 50, 0.878);
+    border-radius: 50px;
+}
+
+.box1 a {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    text-align: center;
+    padding: 50px;
+}
+.box3 {
+    text-align: center;
+    padding: 50px;
+}
+
+
 
 p{
     color: rgb(255, 255, 255);
@@ -42,6 +78,15 @@ button{
 
 button:hover{
     background-color: rgb(24, 24, 24);
+}
+
+/* Estiliza as linhas */
+
+#linha_horizontal {
+    border:ridge;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 

@@ -6,6 +6,9 @@
 }
 
 body{
+    background-image: url(imgs/fundograma.jpg);
+    background-attachment:fixed;
+    background-size:cover;
     font-family: 'Orbitron', sans-serif;
     background-color: rgba(26, 82, 54, 0.8);
     color: rgb(255, 238, 0);
@@ -32,7 +35,7 @@ form{
     padding: 50px;
     display: flex;
     justify-content: center;
-    background-color: rgb(36, 65, 50);
+    background-color:rgba(36, 65, 50, 0.878);
     border-radius: 50px;
 }
 

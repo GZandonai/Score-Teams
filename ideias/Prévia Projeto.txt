@@ -1,0 +1,14 @@
+
+
+- letra O de scOre  formato de bola de futebol
+
+
+- background site= fundo gramado de futebol
+
+
+-container tenha acesso aos melhores momementos= looping de momentos
+marcantes de alguns times passando ao fundo da descrição
+ 
+
+
+
