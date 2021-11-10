@@ -3,7 +3,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
+
 
 body{
     background-image: url(imgs/fundograma.jpg);
@@ -22,18 +24,25 @@ header{
     font-size: 30px;
     background-image: url(imgs/bannerlogo.jpg);
     background-size: cover;
-   
+   flex-direction: column;
     
 }
 
+header p {
+    font-size: 20px;
+    color: rgb(255, 238, 0);
+}
 
-/*centralizar conteudo*/
+
+
+/*centralizar conteudo BOX 1*/
 
 .box1 {
-    background-image: url(/imgs/bannerlogin.gif);
+    background-image: url(imgs/bannerlogin.gif);
     background-size: cover;
     text-align: center;
     padding: 300px;
+    
 }
 
 .box1 h1 {
@@ -41,44 +50,72 @@ header{
     padding: 50px;
     background-color: rgba(36, 65, 50, 0.878);
     border-radius: 50px;
+    border: ridge;
+    border-color: rgb(255, 238, 0);
 }
 
-.box1 a {
-    display: flex;
-    justify-content: center;
-}
+
+
+/*Centralizar conteudo BOX 2 */ 
 
 .box2 {
     text-align: center;
-    padding: 50px;
+    margin-top: 30px;
 }
+.box2 h1,ul, h2 {
+    display: inline-block;
+    padding: 50px;
+    background-color: rgba(36, 65, 50, 0.878);
+    border-radius: 50px;
+    border: ridge;
+    border-color: rgb(255, 238, 0);
+}
+.box2 h2 {
+    margin:20px;
+}
+
+
+.imgs_box2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+.imgs_box2 img {
+    border: outset;
+    border-radius: 30px;
+}
+
+/*Centralizar conteudo BOX 3 */ 
+
 .box3 {
+    background-color: rgba(36, 65, 50, 0.878);
     text-align: center;
     padding: 50px;
+    font-size: 30px;
 }
 
 
 
-p{
-    color: rgb(255, 255, 255);
-}
 
 
 /*estilizando botões*/
-button{
+input[type="button"]{
     background-color: rgb(48, 47, 47); 
     color: rgb(255, 238, 0);
     font-weight: 700;
     border: 1px solid;
     padding: 10px 40px;
     border-radius: 8px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
-button:hover{
+input[type="button"]:hover{
     background-color: rgb(24, 24, 24);
 }
+
 
 /* Estiliza as linhas */
 
@@ -86,11 +123,16 @@ button:hover{
     border:ridge;
     border-color: rgb(0, 0, 0);
     width: 100%;
-    margin-bottom: 30px;
 }
 
 
 /*rodapé*/
 footer{
+    background-color: rgba(36, 65, 50, 0.878);
     text-align: center;
+}
+
+p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
 }

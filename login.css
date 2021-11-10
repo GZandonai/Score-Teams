@@ -24,8 +24,13 @@ a:hover{
 }
 
 nav {
+    margin:10px;
+    background-color: rgba(36, 65, 50, 0.878);
     padding:10px;
    text-align: center;
+   border-radius: 15px;
+   border:solid 2px;
+   border-color: rgb(255, 238, 0);
     
 }
 
@@ -44,6 +49,16 @@ header{
     text-align: center;
     padding: 50px 0 50px 0;
     font-size: 30px;
+    padding: 100px 0 100px 0;
+    font-size: 30px;
+    background-image: url(imgs/bannerlogo.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+header p {
+    font-size: 20px;
+    color: rgb(255, 238, 0);
 }
 
 
@@ -85,16 +100,31 @@ input[type="button"]{
     cursor: pointer;
 }
 
+input[type="button"]:hover {
+    background-color: rgb(24, 24, 24);
+}
+
 #botao-login {
     text-align: center;
     
 }
 
 .link-opcoes {
+    background-color: rgba(36, 65, 50, 0.878);
+    border-radius: 15px;
+    border:solid 2px;
+    margin: 10px;
    padding:10px;
- 
 }
 
 .linha {
     padding: 2px;
+}
+
+
+/* Estiliza as linhas */
+#linha_horizontal {
+    border:ridge;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
 }

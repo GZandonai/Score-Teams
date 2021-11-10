@@ -17,10 +17,33 @@ body{
 
 /*logo*/
 header{
+    display: flex;
     text-align: center;
     padding: 50px 0 50px 0;
+    font-size: 30px;
+    padding: 100px 0 100px 0;
+    font-size: 30px;
+    background-image: url(imgs/bannerlogo.jpg);
+    background-size: cover;
+    flex-direction: column;
 }
 
+header p {
+    font-size: 20px;
+    color: rgb(255, 238, 0);
+}
+
+
+nav { 
+    margin:10px;
+    background-color: rgba(36, 65, 50, 0.878);
+    padding:10px;
+    text-align: center;
+    border-radius: 15px;
+    border:solid 2px;
+    border-color: rgb(255, 238, 0);
+
+}
 
 /*centralizando o conteudo*/
 main{
@@ -37,6 +60,7 @@ form{
     justify-content: center;
     background-color:rgba(36, 65, 50, 0.878);
     border-radius: 50px;
+    margin: 30px;
 }
 
 legend{
@@ -93,4 +117,12 @@ a:hover{
 footer{
     text-align: center;
     padding: 20px;
+}
+
+/* Estiliza as linhas */
+
+#linha_horizontal {
+    border:ridge;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
 }
